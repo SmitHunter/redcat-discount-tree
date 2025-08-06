@@ -241,7 +241,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🍩 Redcat Discount Setup Guide</h1>
+            <h1>Redcat Discount Setup Guide</h1>
             <p>Interactive decision tree to guide you through the perfect discount setup</p>
         </div>
 
@@ -259,11 +259,11 @@
                 <h2>Will this discount be open to everyone or just members?</h2>
                 <div class="options">
                     <div class="option-card" onclick="selectOption('step1', 'everyone', 'Everyone')">
-                        <h3>👥 Everyone</h3>
+                        <h3>Everyone</h3>
                         <p>All customers can use this discount. Typically involves creating bundle/combo items for in-store or special PLUs for online.</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step1', 'members', 'Members Only')">
-                        <h3>⭐ Members Only</h3>
+                        <h3>Members Only</h3>
                         <p>Loyalty program members only. Allows for coupon-based discounts with advanced targeting and redemption options.</p>
                     </div>
                 </div>
@@ -278,27 +278,27 @@
                 <h2>What type of coupon do you want to create?</h2>
                 <div class="options">
                     <div class="option-card" onclick="selectOption('step2', 'percentage_full', 'Percentage Off [Full Sale]')">
-                        <h3>💯 Percentage Off [Full Sale]</h3>
+                        <h3>Percentage Off [Full Sale]</h3>
                         <p>Percentage amount off the entire sale</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step2', 'dollars_full', 'Dollars Off [Full Sale]')">
-                        <h3>💰 Dollars Off [Full Sale]</h3>
+                        <h3>Dollars Off [Full Sale]</h3>
                         <p>Dollar amount off the entire sale</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step2', 'percentage_items', 'Percentage off [Items & Instructions]')">
-                        <h3>📦 Percentage off [Items & Instructions]</h3>
+                        <h3>Percentage off [Items & Instructions]</h3>
                         <p>Item and instructions receive percentage off</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step2', 'percentage_item_only', 'Percentage off [Item Only]')">
-                        <h3>🎯 Percentage off [Item Only]</h3>
+                        <h3>Percentage off [Item Only]</h3>
                         <p>Instructions excluded from discount</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step2', 'price_override', 'Price Override')">
-                        <h3>🏷️ Price Override</h3>
+                        <h3>Price Override</h3>
                         <p>New price for selected PLU at POS</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step2', 'bogo_percentage', 'Buy One Get One Percentage Off')">
-                        <h3>🎁 BOGO Percentage Off</h3>
+                        <h3>BOGO Percentage Off</h3>
                         <p>Percentage reduction on target PLU when cart contains qualifying PLUs</p>
                     </div>
                 </div>
@@ -317,11 +317,11 @@
                         <p>POS purchases only</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step3', 'online', 'Online Only')">
-                        <h3>💻 Online Only</h3>
+                        <h3>Online Only</h3>
                         <p>Website/app orders only</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step3', 'both', 'Both In-store and Online')">
-                        <h3>🌐 Both Channels</h3>
+                        <h3>Both Channels</h3>
                         <p>Available for POS and online orders</p>
                     </div>
                 </div>
@@ -336,23 +336,23 @@
                 <h2>Who should receive this coupon?</h2>
                 <div class="options">
                     <div class="option-card" onclick="selectOption('step4', 'independent', 'Independent Campaign')">
-                        <h3>🎯 Independent Campaign</h3>
+                        <h3>Independent Campaign</h3>
                         <p>Coupons can be assigned to specific members and/or used by anyone</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step4', 'current', 'All Current Registrations')">
-                        <h3>📋 Current Members</h3>
+                        <h3>Current Members</h3>
                         <p>Coupons given only to current registrants</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step4', 'new', 'New Registrations')">
-                        <h3>✨ New Members</h3>
+                        <h3>New Members</h3>
                         <p>Coupons given to current and future registrations</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step4', 'all', 'All Current and New')">
-                        <h3>🌟 All Members</h3>
+                        <h3>All Members</h3>
                         <p>Coupons given to current and future registrations</p>
                     </div>
                     <div class="option-card" onclick="selectOption('step4', 'single', 'One Coupon for All')">
-                        <h3>🎫 Single Coupon</h3>
+                        <h3>Single Coupon</h3>
                         <p>Only one coupon generated, not assigned to specific members</p>
                     </div>
                 </div>
@@ -366,16 +366,16 @@
             <div class="step" id="stepBundle">
                 <h2>Do you know how to create bundle/combo items?</h2>
                 <div class="warning">
-                    <h4>⚠️ Bundle Creation Required</h4>
+                    <h4>Bundle Creation Required</h4>
                     <p>For "Everyone" discounts, you'll need to create bundle/combo items rather than traditional coupons.</p>
                 </div>
                 <div class="options">
                     <div class="option-card" onclick="selectOption('stepBundle', 'yes', 'Yes, I know how')">
-                        <h3>✅ Yes</h3>
+                        <h3>Yes</h3>
                         <p>I'm familiar with creating PLUs and bundle items</p>
                     </div>
                     <div class="option-card" onclick="selectOption('stepBundle', 'no', 'No, I need help')">
-                        <h3>❓ No</h3>
+                        <h3>No</h3>
                         <p>I need step-by-step guidance</p>
                     </div>
                 </div>
@@ -388,7 +388,7 @@
             <!-- Results -->
             <div class="step" id="result">
                 <div class="result">
-                    <h3 id="resultTitle">🎉 Your Setup Guide</h3>
+                    <h3 id="resultTitle">Your Setup Guide</h3>
                     <div id="resultContent"></div>
                     <div style="margin-top: 20px;">
                         <button class="btn btn-primary" onclick="restart()">Create Another Discount</button>
@@ -677,3 +677,4 @@
     </script>
 </body>
 </html>
+
